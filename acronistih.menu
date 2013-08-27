@@ -1,7 +1,7 @@
 LABEL ACRONISTIH
 MENU LABEL ^Acronis True Image Home 2011 v14
 KERNEL er/plugins/acronistih/kernel.dat
-INITRD er/plugins/acronistih/ramdisk.dat
+INITRD er/plugins/acronistih/ramdisk.dat,er/plugins/acronistih/mouse.com
 APPEND vga=791 ramdisk_size=100000 acpi=off noapic iso
 TEXT HELP
                  Acronis True Image Home.
